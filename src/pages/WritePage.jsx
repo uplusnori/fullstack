@@ -80,7 +80,7 @@ function WritePage() {
               type="text"
               {...register("author")}
               className="input input-bordered w-full"
-              placeholder="작성자 이름을 입력하세요"
+              placeholder="작성자 이름을 입력해주세요"
             />
             {errors.author && (
               <label className="label">
